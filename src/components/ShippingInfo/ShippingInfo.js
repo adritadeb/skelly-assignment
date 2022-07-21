@@ -12,7 +12,7 @@ const ShippingInfo = () => {
                     <Link to='/login'>Log in</Link>
                 </button>
                 <button className='uppercase rounded-full border-2 px-8 py-3 ml-3'>
-                    <Link to='/login'>Log in</Link>
+                    <Link to='/login'>Sign Up</Link>
                 </button>
             </section>
 

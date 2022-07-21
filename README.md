@@ -1,2 +1,3 @@
 # E-Shop
 
+This is the payment page of an e-commerce site. On this page, there is a navbar at the top page. After that, there is a shipping and payment form where the user will give his information to continue the payment process. Then one can select the payment method and delivery method which he wants. Finally, he can proceed with his payment or continue shopping. The only login button is functional here. The email-password-based login system is implemented here.

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SearchIcon, ShoppingCartIcon, UserIcon } from '@heroicons/react/outline';
 import Logo from '../../Images/Logo.PNG';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
             <div className='flex justify-between items-center mx-10 py-6'>
                 <div className='flex items-center'>
                     <img className='h-14' src={Logo} />
-                    <h3 className='text-xl pl-5'><span className='text-orange-300'>E-</span>Shop</h3>
+                    <Link to='/'><h3 className='text-xl pl-5'><span className='text-orange-300'>E-</span>Shop</h3></Link>
                 </div>
                 <div className='flex'>
                     <p>Men</p>

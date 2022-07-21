@@ -1,14 +1,17 @@
 import './App.css';
 import Header from './components/Header/Header';
-import LastSection from './components/LastSection/LastSection';
-import PaymentPage from './components/PaymentPage/PaymentPage';
+import { Routes, Route } from 'react-router-dom';
+import LoginPage from './components/LoginPage/LoginPage';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <PaymentPage></PaymentPage>
-      <LastSection></LastSection>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/login' element={<LoginPage></LoginPage>}></Route>
+      </Routes>
     </div>
   );
 }

@@ -1,12 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ShippingInfo = () => {
     return (
         <div>
             <h4 className='pb-14 text-xl font-medium text-gray-600'>Shipping and Payment</h4>
             <div>
-                <button className='uppercase rounded-full border-0 px-10 py-4 bg-emerald-400 text-white'>Log in</button>
-                <button className='uppercase rounded-full border-2 px-8 py-3 ml-3'>Sign Up</button>
+                <button className='uppercase rounded-full border-0 px-10 py-4 bg-emerald-400 text-white'>
+                    <Link to='/login'>Log in</Link>
+                </button>
+                <button className='uppercase rounded-full border-2 px-8 py-3 ml-3'>
+                    <Link to='/login'>Log in</Link>
+                </button>
             </div>
             <p className='font-medium text-gray-600 pt-10 pb-5'>Shipping Information</p>
             <form className='flex'>

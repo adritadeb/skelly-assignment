@@ -1,5 +1,7 @@
 import React from 'react';
 import { ShoppingCartIcon, TruckIcon } from '@heroicons/react/outline';
+import user1 from '../../Images/users/user1.PNG';
+import user2 from '../../Images/users/user2.PNG';
 
 const CartSummary = () => {
     return (
@@ -17,7 +19,7 @@ const CartSummary = () => {
                 <p className='font-medium text-gray-600 pt-10 pb-5'>Your cart</p>
                 <div className='flex items-center'>
                     <div className='flex items-center'>
-                        <div className='border-2 rounded-full p-2 border-emerald-400 mr-4'><ShoppingCartIcon className='h-6'></ShoppingCartIcon></div>
+                        <img className='h-14 border-0 rounded-full mr-4' src={user1}/>
                         <div>
                             <p className='text-gray-600'>T-Shirt</p>
                             <p className='text-gray-600'>Summer Vibes</p>
@@ -30,7 +32,7 @@ const CartSummary = () => {
             <section className='mt-5'>
                 <div className='flex items-center'>
                     <div className='flex items-center'>
-                        <div className='border-2 rounded-full p-2 border-emerald-400 mr-4'><ShoppingCartIcon className='h-6'></ShoppingCartIcon></div>
+                        <img className='h-14 border-0 rounded-full mr-4' src={user2}/>  
                         <div>
                             <p className='text-gray-600'>Basic Slim</p>
                             <p className='text-gray-600'>Fit T-Shirt</p>

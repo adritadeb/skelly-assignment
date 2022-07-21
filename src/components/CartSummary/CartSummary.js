@@ -15,6 +15,8 @@ const CartSummary = () => {
                     <div className='border-0 rounded-full p-2 bg-emerald-400'><TruckIcon className='h-6 text-white'></TruckIcon></div>
                 </div>
             </section>
+
+            {/* first user product */}
             <section>
                 <p className='font-medium text-gray-600 pt-10 pb-5'>Your cart</p>
                 <div className='flex items-center'>
@@ -29,6 +31,8 @@ const CartSummary = () => {
                     <p className='font-medium text-gray-600 ml-12'>$89.99</p>
                 </div>
             </section>
+
+            {/* second user product */}
             <section className='mt-5'>
                 <div className='flex items-center'>
                     <div className='flex items-center'>
@@ -42,6 +46,8 @@ const CartSummary = () => {
                     <p className='font-medium text-gray-600 ml-20'>$69.99</p>
                 </div>
             </section>
+            
+            {/* Total cost */}
             <div>
                 <button className='rounded-full border-0 px-8 py-3 ml-3 mt-8 flex bg-gray-200'>
                     <p className='mr-10 text-gray-500'>Total cost</p>

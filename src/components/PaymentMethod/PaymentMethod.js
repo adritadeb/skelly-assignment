@@ -14,6 +14,8 @@ const PaymentMethod = () => {
     return (
         <div>
             <p className='font-medium text-gray-600 pt-20 pb-5'>Payment method</p>
+
+            {/* Payment methods */}
             <div className='grid grid-cols-3 gap-2'>
                 <button className='rounded-3xl border-2 px-6 py-2'>
                     <img className='h-8' src={paypal}/>
@@ -34,7 +36,11 @@ const PaymentMethod = () => {
                     <img className='h-8' src={IDEAL}/>
                 </button>
             </div>
+
+            
             <p className='font-medium text-gray-600 pt-12 pb-5'>Delivery method</p>
+
+            {/* Delivery method */}
             <div className='grid grid-cols-2 gap-2'>
                 <button className='rounded-3xl border-2 px-6 py-2 flex justify-between items-center'>
                     <img className='h-8' src={inpost}/>

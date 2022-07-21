@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowLeftIcon} from '@heroicons/react/outline';
 
 const ShippingInfo = () => {
     return (
